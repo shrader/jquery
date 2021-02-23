@@ -26,4 +26,4 @@ $("input").on("focusout", ()=> {
 });
 
 
-$("img").on("click", ()=> $("img").remove());
+$("img").on("click", (evt)=> evt.target.remove());
